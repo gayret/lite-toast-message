@@ -1,0 +1,16 @@
+{
+  "name": "lite-toast-message",
+  "version": "1.0.0",
+  "description": "Lite and basic toast message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toast",
+    "message",
+    "lite"
+  ],
+  "author": "Safa Gayret",
+  "license": "MIT"
+}
