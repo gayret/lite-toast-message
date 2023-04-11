@@ -1,33 +1,37 @@
 /**
- * This module exports a function that creates 
- * a toast message object with methods for displaying success, error, warning, and info messages.
+ * Creates a toast message object.
+ * @returns An object containing methods for displaying different types of toast messages.
  */
 declare function message(): {
-    /**
-     * Displays a success toast message with the given message and title.
-     * @param message - The message to display in the toast.
-     * @param title - An optional title to display in the toast header.
-     */
-    success(message: string, title?: string): void;
-    /**
-     * Displays an error toast message with the given message and title.
-     * @param message - The message to display in the toast.
-     * @param title - An optional title to display in the toast header.
-     */
-    error(message: string, title?: string): void;
-    /**
-     * Displays a warning toast message with the given message and title.
-     * @param message - The message to display in the toast.
-     * @param title - An optional title to display in the toast header.
-     */
-    warning(message: string, title?: string): void;
-    /**
-     * Displays an info toast message with the given message and title.
-     * @param message - The message to display in the toast.
-     * @param title - An optional title to display in the toast header.
-     */
-    info(message: string, title?: string): void;
-  };
-  
-  export = message;
-  
+  /**
+   * Displays a success toast message with the given message and title.
+   * @param message - The message to display in the toast.
+   * @param title - An optional title to display in the toast header.
+   * @param duration - The duration in milliseconds to display the toast.
+   */
+  success(message: string, title?: string, duration?: number): void;
+  /**
+   * Displays an error toast message with the given message and title.
+   * @param message - The message to display in the toast.
+   * @param title - An optional title to display in the toast header.
+   * @param duration - The duration in milliseconds to display the toast.
+   */
+  error(message: string, title?: string, duration?: number): void;
+  /**
+   * Displays a warning toast message with the given message and title.
+   * @param message - The message to display in the toast.
+   * @param title - An optional title to display in the toast header.
+   * @param duration - The duration in milliseconds to display the toast.
+   */
+  warning(message: string, title?: string, duration?: number): void;
+  /**
+   * Displays an info toast message with the given message and title.
+   * @param message - The message to display in the toast.
+   * @param title - An optional title to display in the toast header.
+   * @param duration - The duration in milliseconds to display the toast.
+   */
+  info(message: string, title?: string, duration?: number): void;
+};
+
+const { success, error, warning, info } = message();
+export { success, error, warning, info };
