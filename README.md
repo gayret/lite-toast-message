@@ -9,16 +9,16 @@ Lite and basic toast message
 ## Usage
 
 ```
-import message from 'lite-toast-message'
+import { success, error, warning, info } from 'lite-toast-message'
 
-message.info('Hello World')
+info('Hello World')
 ```
 
 ## Options
 
 ```
-message.success('Message body', 'Title')
-message.info('Message body', 'Title')
-message.warning('Message body', 'Title')
-message.error('Message body', 'Title')
+message.success('Message body', 'Title', 5000)
+message.info('Message body', 'Title', 5000)
+message.warning('Message body', 'Title', 5000)
+message.error('Message body', 'Title', 5000)
 ```
