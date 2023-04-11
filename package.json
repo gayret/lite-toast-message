@@ -4,6 +4,7 @@
   "description": "Lite and basic toast message",
   "main": "index.js",
   "type": "module",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,8 @@
     "lite"
   ],
   "author": "Safa Gayret",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
