@@ -9,6 +9,14 @@ Lite and basic toast message
 ## Usage
 
 ```
+import message from 'lite-toast-message'
+
+message.info('Hello World')
+```
+
+or
+
+```
 import { success, error, warning, info } from 'lite-toast-message'
 
 info('Hello World')
