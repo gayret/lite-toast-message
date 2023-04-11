@@ -1,6 +1,6 @@
 {
   "name": "lite-toast-message",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lite and basic toast message",
   "main": "index.js",
   "type": "module",

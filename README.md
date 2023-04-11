@@ -9,14 +9,6 @@ Lite and basic toast message
 ## Usage
 
 ```
-import message from 'lite-toast-message'
-
-message.info('Hello World')
-```
-
-or
-
-```
 import { success, error, warning, info } from 'lite-toast-message'
 
 info('Hello World')
@@ -25,8 +17,8 @@ info('Hello World')
 ## Options
 
 ```
-message.success('Message body', 'Title', 5000)
-message.info('Message body', 'Title', 5000)
-message.warning('Message body', 'Title', 5000)
-message.error('Message body', 'Title', 5000)
+success('Message body', 'Title', 5000)
+info('Message body', 'Title', 5000)
+warning('Message body', 'Title', 5000)
+error('Message body', 'Title', 5000)
 ```
