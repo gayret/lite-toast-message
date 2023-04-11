@@ -4,7 +4,7 @@
   "description": "Lite and basic toast message",
   "main": "index.js",
   "type": "module",
-  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/gayret/lite-toast-message"
